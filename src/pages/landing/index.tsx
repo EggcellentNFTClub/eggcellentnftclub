@@ -212,7 +212,7 @@ export const Landing: React.FC = () => {
           />
         </h1>
         <CommingSoonWrapper>
-          <span>CHECK BACK SOON!</span>
+          <span>HAVING MINOR TECHNICAL ISSUE, CHECK BACK SOON!</span>
           <Animbar />
         </CommingSoonWrapper>
         {currentAcc && (
