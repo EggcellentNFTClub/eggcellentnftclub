@@ -130,6 +130,7 @@ export const Landing: React.FC = () => {
               await setLoading(false);
             }
           } catch (error: any) {
+            console.log(error)
             if (error.data !== undefined) {
               if (error.data.message.includes("Exceeds max supply!")) {
                 toast.error("Exceeds max supply!", { theme: "dark" });
@@ -178,6 +179,7 @@ export const Landing: React.FC = () => {
               await setLoading(false);
             }
           } catch (error: any) {
+            console.log(error)
             if (error.data !== undefined) {
               if (error.data.message.includes("Exceeds max supply!")) {
                 toast.error("Exceeds max supply!", { theme: "dark" });
